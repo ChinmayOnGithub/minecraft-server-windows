@@ -1,0 +1,5 @@
+/execute at speedrunner's_name run setworldspawn ~ ~ ~
+/gamerule commandBlockOutput false
+/spawnpoint @a
+/forceload add ~ ~ ~ ~
+/give @p minecraft:compass

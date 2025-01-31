@@ -1,0 +1,84 @@
+[18:26:23] [ServerMain/INFO]: [bootstrap] Running Java 23 (Java HotSpot(TM) 64-Bit Server VM 23.0.1+11-39; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[18:26:23] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-81-master@da71382 (2024-12-03T14:58:13Z) for Minecraft 1.21.3
+[18:26:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:26:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[18:26:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:26:36] [ServerMain/INFO]: Loaded 1337 recipes
+[18:26:36] [ServerMain/INFO]: Loaded 1448 advancements
+[18:26:36] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[18:26:36] [Server thread/INFO]: Loading properties
+[18:26:36] [Server thread/INFO]: This server is running Paper version 1.21.3-81-master@da71382 (2024-12-03T14:58:13Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[18:26:37] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:26:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:26:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:26:38] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[18:26:38] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[18:26:38] [Server thread/INFO]: Default game type: SURVIVAL
+[18:26:38] [Server thread/INFO]: Generating keypair
+[18:26:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:26:38] [Server thread/INFO]: Using default channel type
+[18:26:38] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[18:26:38] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[18:26:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:26:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:26:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:26:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:26:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:26:38] [Server thread/INFO]: Preparing level "world"
+[18:26:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:26:39] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[18:26:40] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 566.5ms
+[18:26:40] [Server thread/INFO]: Preparing spawn area: 0%
+[18:26:40] [Server thread/INFO]: Preparing spawn area: 0%
+[18:26:41] [Server thread/INFO]: Preparing spawn area: 0%
+[18:26:41] [Server thread/INFO]: Preparing spawn area: 0%
+[18:26:41] [Server thread/INFO]: Time elapsed: 1539 ms
+[18:26:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:26:41] [Server thread/INFO]: Preparing spawn area: 0%
+[18:26:41] [Server thread/INFO]: Time elapsed: 262 ms
+[18:26:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:26:41] [Server thread/INFO]: Preparing spawn area: 0%
+[18:26:41] [Server thread/INFO]: Time elapsed: 76 ms
+[18:26:41] [Server thread/INFO]: [spark] Starting background profiler...
+[18:26:41] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[18:26:41] [Server thread/INFO]: Done preparing level "world" (2.836s)
+[18:26:41] [Server thread/INFO]: Running delayed init tasks
+[18:26:41] [Server thread/INFO]: Done (20.598s)! For help, type "help"
+[18:26:46] [User Authenticator #0/INFO]: UUID of player Chini is cce52f31-24e7-3498-95d1-756399993eb3
+[18:26:47] [Server thread/INFO]: Chini joined the game
+[18:26:47] [Server thread/INFO]: Chini[/127.29.104.122:49907] logged in with entity id 144 at ([world]-6.068219862807309, 113.0, 41.02767277490113)
+[18:26:48] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 4d83aa3a-1580-4dc6-ba8f-e9d517f69b52, mapped to Pig['Pig'/113, uuid='4d83aa3a-1580-4dc6-ba8f-e9d517f69b52', l='ServerLevel[world]', x=-43.32, y=97.00, z=-15.50, cpos=[-3, -1], tl=33567, v=true], can't add Pig['Pig'/308, uuid='4d83aa3a-1580-4dc6-ba8f-e9d517f69b52', l='ServerLevel[world]', x=-56.18, y=104.00, z=-16.19, cpos=[-4, -2], tl=37309, v=false]
+[18:26:50] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: f7cfcf6b-812a-4ce3-b448-71b5414a61aa, mapped to Spider['Spider'/389, uuid='f7cfcf6b-812a-4ce3-b448-71b5414a61aa', l='ServerLevel[world]', x=-46.11, y=83.75, z=-79.96, cpos=[-3, -5], tl=139, v=true], can't add Spider['Spider'/412, uuid='f7cfcf6b-812a-4ce3-b448-71b5414a61aa', l='ServerLevel[world]', x=-46.17, y=84.17, z=-80.04, cpos=[-3, -6], tl=141, v=false]
+[18:26:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 270751b3-8b38-46e2-99cb-4d167cb1e478, mapped to Villager['Villager'/531, uuid='270751b3-8b38-46e2-99cb-4d167cb1e478', l='ServerLevel[world]', x=-215.30, y=90.00, z=142.04, cpos=[-14, 8], tl=16351, v=true], can't add Villager['Villager'/550, uuid='270751b3-8b38-46e2-99cb-4d167cb1e478', l='ServerLevel[world]', x=-210.51, y=88.94, z=147.53, cpos=[-14, 9], tl=15904, v=false]
+[18:26:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 091f180c-7ccd-4981-9fa9-6fe9ce723f2e, mapped to Villager['Villager'/530, uuid='091f180c-7ccd-4981-9fa9-6fe9ce723f2e', l='ServerLevel[world]', x=-217.33, y=90.00, z=142.51, cpos=[-14, 8], tl=15728, v=true], can't add Villager['Villager'/551, uuid='091f180c-7ccd-4981-9fa9-6fe9ce723f2e', l='ServerLevel[world]', x=-211.32, y=88.94, z=146.67, cpos=[-14, 9], tl=15281, v=false]
+[18:29:36] [Server thread/INFO]: Chini issued server command: /time set day
+[18:29:36] [Server thread/INFO]: [Chini: Set the time to 1000]
+[18:38:44] [Server thread/INFO]: Chini issued server command: /time set day
+[18:38:44] [Server thread/INFO]: [Chini: Set the time to 1000]
+[18:38:59] [Server thread/INFO]: Chini issued server command: /time set
+[18:39:08] [Server thread/INFO]: Chini issued server command: /time set midnight
+[18:39:08] [Server thread/INFO]: [Chini: Set the time to 18000]
+[18:39:12] [Server thread/INFO]: Chini issued server command: /time set day
+[18:39:12] [Server thread/INFO]: [Chini: Set the time to 1000]
+[18:40:45] [Server thread/INFO]: Chini fell from a high place
+[18:40:55] [Server thread/INFO]: Chini issued server command: /gamemode creative
+[18:40:55] [Server thread/INFO]: [Chini: Set own game mode to Creative Mode]
+[18:40:57] [Server thread/INFO]: Chini issued server command: /gamemode spectator
+[18:40:57] [Server thread/INFO]: [Chini: Set own game mode to Spectator Mode]
+[18:41:49] [Server thread/INFO]: Chini issued server command: /gamemode survival
+[18:41:49] [Server thread/INFO]: [Chini: Set own game mode to Survival Mode]
+[18:42:25] [Server thread/INFO]: Chini issued server command: /gamemode creative
+[18:42:25] [Server thread/INFO]: [Chini: Set own game mode to Creative Mode]
+[18:42:51] [Server thread/INFO]: Chini issued server command: /gamemode survival
+[18:42:51] [Server thread/INFO]: [Chini: Set own game mode to Survival Mode]
+[18:43:11] [Server thread/INFO]: Chini fell from a high place
+[18:43:18] [Server thread/INFO]: Chini issued server command: /gamemode spectator
+[18:43:18] [Server thread/INFO]: [Chini: Set own game mode to Spectator Mode]
+[18:44:30] [Server thread/INFO]: Chini issued server command: /gamemode survival
+[18:44:30] [Server thread/INFO]: [Chini: Set own game mode to Survival Mode]
+[18:44:31] [Server thread/INFO]: Chini issued server command: /gamemode spectator
+[18:44:31] [Server thread/INFO]: [Chini: Set own game mode to Spectator Mode]
+[18:44:34] [Server thread/INFO]: Chini issued server command: /gamemode creative
+[18:44:34] [Server thread/INFO]: [Chini: Set own game mode to Creative Mode]
+[19:00:27] [Server thread/INFO]: Chini lost connection: Disconnected
+[19:00:27] [Server thread/INFO]: Chini left the game

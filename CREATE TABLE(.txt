@@ -1,0 +1,5 @@
+CREATE TABLE(
+	employee_name VARCHAR,
+	"employee_id" INT PRIMARY,
+	"employee_address VARCHAR	
+)
